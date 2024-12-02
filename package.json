@@ -4,8 +4,9 @@
   "description": "tune-clash-backend",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "prod": "node src/index.js"
+    "dev": "nodemon backend/src/index.js",
+    "prod": "node backend/src/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Andrej Plavsic",
   "license": "ISC",
