@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "tune-clash-backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "prod": "node src/index.js"
+  },
+  "author": "Andrej Plavsic",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

@@ -1,0 +1,18 @@
+.roundedInput {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.roundedInput:focus {
+  border-color: #8aa2bb;
+}
+
+button {
+  margin-top: 20px;
+}
+
+section {
+  margin-top: 200px;
+}

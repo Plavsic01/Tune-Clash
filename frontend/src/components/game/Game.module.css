@@ -1,0 +1,21 @@
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+  width: 100%;
+}
+
+.status h2 {
+  color: rgb(216, 207, 207);
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+.winner {
+  margin-top: 350px;
+}
