@@ -1,6 +1,7 @@
 import { io } from "socket.io-client";
+const API_URL = import.meta.env.PRODUCTION_BACKEND_URL;
 
-const socket = io("http://localhost:4000");
+const socket = io(API_URL);
 
 socket.on("connect", () => {
   console.log("Konektovan");
