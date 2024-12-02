@@ -26,7 +26,7 @@ export default (io) => {
         curentlyPlaying: "",
         playedSongs: [],
         currentRound: 0,
-        maxRounds: 1,
+        maxRounds: 3,
         playerScores: {
           [socket.username]: 0,
         },
